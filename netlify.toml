@@ -1,5 +1,3 @@
 [build]
-  functions = "functions"
+command = “CI= npm run build”
 
-[dev]
-  functionsPort = 40286
