@@ -16,6 +16,7 @@ const corsOptions = {
   optionSuccessStatus:200,
 }
 // origin: 'mysql51.mydevil.net',
+// origin: 'XXXXXXXXXXXXXXXXXXXXX',
 
 app.use(cors(corsOptions))
 app.use(express.json())
