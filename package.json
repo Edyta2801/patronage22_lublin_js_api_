@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "netlify deploy --prod"
+    "web": "server.js"
   },
   "author": "Daniel Blach",
   "license": "ISC",
