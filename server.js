@@ -64,7 +64,6 @@ app.use(notFoundMiddleware)
 
 const PORT = process.env.PORT || 40286
 
-// app.listen(PORT, () => {
-//   console.log(`Server is running on port ${PORT}`)
-// })
-module.exports = app;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`)
+})
