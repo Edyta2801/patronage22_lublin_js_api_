@@ -17,6 +17,10 @@ const corsOptions = {
 }
 // origin: 'mysql51.mydevil.net',
 
+app.get("/", (req, res) => {
+  res.send("Serwer działa!");
+});
+
 app.use(cors(corsOptions))
 app.use(express.json())
 
