@@ -16,7 +16,6 @@ const corsOptions = {
   optionSuccessStatus:200,
 }
 // origin: 'mysql51.mydevil.net',
-// origin: 'XXXXXXXXXXXXXXXXXXXXX',
 
 app.use(cors(corsOptions))
 app.use(express.json())
@@ -65,6 +64,7 @@ app.use(notFoundMiddleware)
 
 const PORT = process.env.PORT || 40286
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`)
-})
+// app.listen(PORT, () => {
+//   console.log(`Server is running on port ${PORT}`)
+// })
+module.exports = app;
